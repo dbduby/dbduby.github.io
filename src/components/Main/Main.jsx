@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import TopNav from '../TopNav/TopNav';
+import Card from '../Card/Card';
 
 function Main() {
   return (
-    <div>Main</div>
+    <div>
+        <TopNav/>
+        <Card/>
+    </div>
   )
 }
 
