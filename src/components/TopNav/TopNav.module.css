@@ -1,0 +1,23 @@
+.right {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    padding: 3px 8px;
+    background: none;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav_option, .resume_button {
+    padding: 0px 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.resume_button {
+    border-radius: 40px;
+}
